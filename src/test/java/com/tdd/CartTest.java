@@ -39,7 +39,7 @@ public class CartTest {
         //Execute
         Cart cart1=new Cart("Meezan Oil",700,2);
         Cart cart2=new Cart("Meezan Oil",700,1);
-        Cart cart=new ShoppingCart();
+        Cart cart=new Cart();
         cart.add(cart1);
         cart.add(cart2);
         int sum=cart.getQtyUpdate();
